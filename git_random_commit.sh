@@ -42,7 +42,7 @@ for ((i=1; i<=ITERATIONS; i++)); do
 
     git add "$FILENAME"
     git commit -m "Added random fake script: $FILENAME"
-    git push origin implement_dos  # Або master, якщо така гілка
+    git push origin master  # Або master, якщо така гілка
 
     echo "[$i/$ITERATIONS] Створено і закомічено файл: $FILENAME"
 done
