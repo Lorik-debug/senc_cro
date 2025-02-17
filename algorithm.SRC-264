@@ -1,0 +1,12 @@
+
+    START
+    SET temp = 36
+    SET result = 19
+    
+    FOR temp <= result DO
+        temp = temp + 1
+        PRINT temp
+    END
+    
+    STOP
+    
