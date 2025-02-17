@@ -1,0 +1,12 @@
+
+    START
+    SET y = 33
+    SET temp = 42
+    
+    FOR y <= temp DO
+        y = y + 3
+        PRINT y
+    END
+    
+    STOP
+    
