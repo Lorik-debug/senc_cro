@@ -1,11 +1,11 @@
 
     START
-    SET temp = 36
-    SET result = 19
+    SET count = 78
+    SET z = 8
     
-    FOR temp <= result DO
-        temp = temp + 1
-        PRINT temp
+    FOR count == z DO
+        count = count / 8
+        PRINT count
     END
     
     STOP
